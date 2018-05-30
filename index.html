@@ -14,13 +14,24 @@ background: #3498db;
 color:white;
 }
 </style>
+ 
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120063161-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120063161-1');
+</script>
+
 </head>
 <body>
 <div id="map" style="position:absolute;top:0px;bottom:0px;right:0px;left:0px;"></div>
 
 
-<div id="panel" style="position:fixed;z-index:99999;top:50px;right:50px">
-
+<div id="panel" style="position:fixed;z-index:99999;bottom:50px;right:50px">
+ <a href="https://github.com/sabas/iliadmap">Github</a>
 </div>
 </body>
 <script>
